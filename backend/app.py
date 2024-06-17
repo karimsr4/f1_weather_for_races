@@ -41,9 +41,7 @@ def get_available_sessions(year, race):
 def get_weather_data(year, race, session):
 
     session_doc = query_session_info(year, race, session)
-    # latitude, longitude = query_location_info(year, race)
-    latitude, longitude = 52.52, 14.6
-    print("lat long", latitude, longitude)
+    latitude, longitude = query_location_info(year, race)
 
     if not session_doc.exists:
         return jsonify({})

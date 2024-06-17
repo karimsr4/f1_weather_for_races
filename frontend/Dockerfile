@@ -10,7 +10,7 @@ WORKDIR $APP_HOME
 # Copy the frontend code into the container
 COPY . .
 
-ENV REACT_APP_API_URL="https://f1backend-y66wotluqa-uc.a.run.app"
+ENV REACT_APP_API_URL="https://f1backend2-y66wotluqa-oa.a.run.app"
 
 # Install dependencies and build the app
 RUN npm install
