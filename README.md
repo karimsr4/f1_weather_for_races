@@ -3,7 +3,7 @@
 In this project, we show weather variables during F1 races (from 2018).
 
 ## Web page
-The web page can be found on the : [Link](https://f1weather-y66wotluqa-uc.a.run.app). It is deployed on Google Cloud.
+The web page can be found on the : [Link](https://f1weather2-y66wotluqa-oa.a.run.app). It is deployed on Google Cloud.
 
 ### Scraping Race schedules
 * The path to script used to scrape race schedules: `./schedules`.
